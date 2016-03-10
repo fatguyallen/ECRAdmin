@@ -8,8 +8,8 @@ namespace ECRAdmin.ProductCRUD.Models
 {
     public interface IProductCRUD<T>
     {
-        bool Add<T>(T product);
-        bool Remove<T>(T product);
+        bool Add(T product);
+        bool Remove(T product);
         IEnumerable<T> ListAll();
     }
 }
