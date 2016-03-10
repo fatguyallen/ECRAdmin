@@ -11,5 +11,6 @@ namespace ECRAdmin.ProductCRUD.Models
         bool Add(T product);
         bool Remove(T product);
         IEnumerable<T> ListAll();
+        bool AddMultiple(IEnumerable<T> products);
     }
 }
