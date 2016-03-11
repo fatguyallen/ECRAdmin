@@ -2,12 +2,12 @@
 
 namespace ECRAdmin.Inventory.Models
 {
-    public interface IInventoryCRUD<T>
+    public interface IInventoryCRUD
     {
-        bool Add(InventoryItem<T> product);
-        bool Remove(InventoryItem<T> product);
-        IEnumerable<InventoryItem<T>> GetBalance();
-        IEnumerable<InventoryItem<T>> GetIns();
-        IEnumerable<InventoryItem<T>> GetOuts();
+        bool Add(InventoryItem product);
+        bool Remove(InventoryItem product);
+        IEnumerable<InventoryItem> GetBalance();
+        IEnumerable<InventoryItem> GetIns();
+        IEnumerable<InventoryItem> GetOuts();
     }
 }

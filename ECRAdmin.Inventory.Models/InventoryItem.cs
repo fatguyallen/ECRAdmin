@@ -1,8 +1,8 @@
 ﻿namespace ECRAdmin.Inventory.Models
 {
-    public class InventoryItem<T>
+    public class InventoryItem
     {
         public string Identifier { get; set; }
-        public T ProductKey { get; set; }
+        public int ProductId { get; set; }
     }
 }
