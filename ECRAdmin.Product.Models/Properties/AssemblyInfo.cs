@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ECRAdmin.InventoryCRUD.Models")]
+[assembly: AssemblyTitle("ECRAdmin.Product.Models")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("ECRAdmin.InventoryCRUD.Models")]
+[assembly: AssemblyProduct("ECRAdmin.Product.Models")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("ea937fbf-ade1-4eea-856d-ac33f3afcb2c")]
+[assembly: Guid("1dd67c9d-5e17-4487-accd-4f4c2c8c8d82")]
 
 // Version information for an assembly consists of the following four values:
 //
