@@ -4,10 +4,10 @@ namespace ECRAdmin.Inventory.Models
 {
     public interface IInventoryCRUD
     {
-        bool Add(InventoryItem product);
-        bool Remove(InventoryItem product);
+        bool CheckIn(InventoryItem product);
+        bool CheckOut(InventoryItem product);
         IEnumerable<InventoryItem> GetBalance();
-        IEnumerable<InventoryItem> GetIns();
-        IEnumerable<InventoryItem> GetOuts();
+        IEnumerable<InventoryItem> GetCheckIns();
+        IEnumerable<InventoryItem> GetCheckOuts();
     }
 }

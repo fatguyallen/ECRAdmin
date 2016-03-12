@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ECRAdmin.Warranty.Models
+namespace ECRAdmin.Defect.Models
 {
-    public class Class1
+    public enum ProductType
     {
+        CashRegister = 1,
+        Scale = 2
     }
 }

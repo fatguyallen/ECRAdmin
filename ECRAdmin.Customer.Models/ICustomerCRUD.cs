@@ -1,11 +1,12 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace ECRAdmin.Customer.Models
 {
     public interface ICustomerCRUD
     {
-        bool Add(ECRAdmin.Customer.Models.Customer customer);
-        bool Remove(ECRAdmin.Customer.Models.Customer customer);
+        bool Add(Customer customer);
+        bool Remove(Guid customerId);
         IEnumerable<Customer> ListAll();
     }
 }
