@@ -10,6 +10,6 @@ namespace ECRAdmin.DefectsModule.Models
     {
         public int Id { get; set; }
         public int ProductTypeId { get; set; }
-        public int Description { get; set; }
+        public string Description { get; set; }
     }
 }

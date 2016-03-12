@@ -7,8 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.TestConsole", "ECR
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.DefectsModule.Models", "ECRAdmin.DefectsModule.Models\ECRAdmin.DefectsModule.Models.csproj", "{4EFD9728-8D5C-4179-BB61-413CF4648FD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.DefectsModule.API", "ECRAdmin.DefectsModule.API\ECRAdmin.DefectsModule.API.csproj", "{BB59F089-C22D-4B5B-883B-0147C31238FC}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.CustomersModule.Models", "ECRAdmin.CustomersModule.Models\ECRAdmin.CustomersModule.Models.csproj", "{0546F1EE-AF6E-4F25-9DFC-1C26D4FBED64}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.InventoryModule.Models", "ECRAdmin.InventoryModule.Models\ECRAdmin.InventoryModule.Models.csproj", "{75769DBE-EEAE-4990-B836-C0F2493F6E4F}"
@@ -20,6 +18,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.ServiceModule.Models", "ECRAdmin.ServiceModule.Models\ECRAdmin.ServiceModule.Models.csproj", "{65DA1A2C-F800-4C05-AC9A-ED1E017726C4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.WarrantyModule.Models", "ECRAdmin.WarrantyModule.Models\ECRAdmin.WarrantyModule.Models.csproj", "{2CDAC72F-F104-4F75-8502-F494FA0EFEE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.DefectsModule.API", "ECRAdmin.DefectsModule.API\ECRAdmin.DefectsModule.API.csproj", "{6ED00BD6-47DC-4C77-814A-82533F91DC0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ECRAdmin.Helpers", "ECRAdmin.Helpers\ECRAdmin.Helpers.csproj", "{3D4E3628-AF9B-4ABC-8948-440998D30155}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +37,6 @@ Global
 		{4EFD9728-8D5C-4179-BB61-413CF4648FD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EFD9728-8D5C-4179-BB61-413CF4648FD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EFD9728-8D5C-4179-BB61-413CF4648FD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{BB59F089-C22D-4B5B-883B-0147C31238FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BB59F089-C22D-4B5B-883B-0147C31238FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BB59F089-C22D-4B5B-883B-0147C31238FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BB59F089-C22D-4B5B-883B-0147C31238FC}.Release|Any CPU.Build.0 = Release|Any CPU
 		{0546F1EE-AF6E-4F25-9DFC-1C26D4FBED64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0546F1EE-AF6E-4F25-9DFC-1C26D4FBED64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0546F1EE-AF6E-4F25-9DFC-1C26D4FBED64}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -63,6 +61,14 @@ Global
 		{2CDAC72F-F104-4F75-8502-F494FA0EFEE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CDAC72F-F104-4F75-8502-F494FA0EFEE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CDAC72F-F104-4F75-8502-F494FA0EFEE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED00BD6-47DC-4C77-814A-82533F91DC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED00BD6-47DC-4C77-814A-82533F91DC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED00BD6-47DC-4C77-814A-82533F91DC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED00BD6-47DC-4C77-814A-82533F91DC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D4E3628-AF9B-4ABC-8948-440998D30155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D4E3628-AF9B-4ABC-8948-440998D30155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D4E3628-AF9B-4ABC-8948-440998D30155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D4E3628-AF9B-4ABC-8948-440998D30155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
